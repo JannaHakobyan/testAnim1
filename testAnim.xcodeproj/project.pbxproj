@@ -21,6 +21,9 @@
 		AB9ADE9B186B577E00097288 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9ADE7D186B577E00097288 /* UIKit.framework */; };
 		AB9ADEA3186B577E00097288 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB9ADEA1186B577E00097288 /* InfoPlist.strings */; };
 		AB9ADEA5186B577E00097288 /* testAnimTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9ADEA4186B577E00097288 /* testAnimTests.m */; };
+		AB9ADEB2186B5DF500097288 /* img1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB9ADEAF186B5DF500097288 /* img1.jpg */; };
+		AB9ADEB3186B5DF500097288 /* img2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB9ADEB0186B5DF500097288 /* img2.jpg */; };
+		AB9ADEB4186B5DF500097288 /* img3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB9ADEB1186B5DF500097288 /* img3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		AB9ADEA0186B577E00097288 /* testAnimTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testAnimTests-Info.plist"; sourceTree = "<group>"; };
 		AB9ADEA2186B577E00097288 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AB9ADEA4186B577E00097288 /* testAnimTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testAnimTests.m; sourceTree = "<group>"; };
+		AB9ADEAF186B5DF500097288 /* img1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img1.jpg; sourceTree = "<group>"; };
+		AB9ADEB0186B5DF500097288 /* img2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img2.jpg; sourceTree = "<group>"; };
+		AB9ADEB1186B5DF500097288 /* img3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +132,7 @@
 		AB9ADE80186B577E00097288 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AB9ADEAE186B5DF500097288 /* Images */,
 				AB9ADE81186B577E00097288 /* testAnim-Info.plist */,
 				AB9ADE82186B577E00097288 /* InfoPlist.strings */,
 				AB9ADE85186B577E00097288 /* main.m */,
@@ -150,6 +157,16 @@
 				AB9ADEA1186B577E00097288 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB9ADEAE186B5DF500097288 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AB9ADEAF186B5DF500097288 /* img1.jpg */,
+				AB9ADEB0186B5DF500097288 /* img2.jpg */,
+				AB9ADEB1186B5DF500097288 /* img3.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +246,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB9ADE92186B577E00097288 /* Images.xcassets in Resources */,
+				AB9ADEB4186B5DF500097288 /* img3.jpg in Resources */,
+				AB9ADEB3186B5DF500097288 /* img2.jpg in Resources */,
+				AB9ADEB2186B5DF500097288 /* img1.jpg in Resources */,
 				AB9ADE84186B577E00097288 /* InfoPlist.strings in Resources */,
 				AB9ADE8D186B577E00097288 /* Main.storyboard in Resources */,
 			);
